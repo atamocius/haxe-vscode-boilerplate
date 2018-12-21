@@ -1,0 +1,81 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "debug: flash",
+      "command": "haxe",
+      "args": ["config/build-debug-flash.hxml"],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "debug: js",
+      "command": "haxe",
+      "args": ["config/build-debug-js.hxml"],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "release: flash",
+      "command": "haxe",
+      "args": ["config/build-release-flash.hxml"],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "release: js",
+      "command": "haxe",
+      "args": ["config/build-release-js.hxml"],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    }
+  ]
+}

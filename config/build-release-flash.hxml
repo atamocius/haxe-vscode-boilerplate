@@ -1,0 +1,3 @@
+-cp src
+-main Main
+-swf bin/release/flash/app.swf

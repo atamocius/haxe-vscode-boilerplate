@@ -1,0 +1,12 @@
+{
+  "indentation": {
+    "character": "  "
+  },
+  "whitespace": {
+    "colonPolicy": "after",
+    "caseColonPolicy": "after",
+    "objectFieldColonPolicy": "after",
+    "typeCheckColonPolicy": "after",
+    "typeHintColonPolicy": "after"
+  }
+}
