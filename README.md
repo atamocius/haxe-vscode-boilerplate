@@ -2,6 +2,14 @@
 
 A barebones boilerplate for Haxe in VS Code. Install the [Haxe extension] to get the most out of this boilerplate.
 
+## Motivation
+
+I created this boilerplate as a way to quickly setup a Haxe coding environment.
+
+Much of the tutorials/instructions on setting up one's development environment focus on Haxe's specific use cases. There are instructions to get up and running quickly but usually lack instructions on how to setup debugging, especially on VS Code.
+
+This boilerplate's setup is focused on getting an environment up that focuses more on the language. This is mainly useful for beginners or to just quickly try out some idea or piece of code.
+
 ## Debugging
 
 This boilerplate includes launch configurations for debugging with the following debuggers:
