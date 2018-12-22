@@ -2,6 +2,8 @@
 
 A barebones boilerplate for Haxe in VS Code. Install the [Haxe extension] to get the most out of this boilerplate.
 
+> The sample code included uses new _Haxe 4.0.0_ language features.
+
 ## Motivation
 
 I created this boilerplate as a way to quickly setup a Haxe coding environment.
