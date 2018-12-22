@@ -1,5 +1,0 @@
--cp src
--main Main
--D fdb
--debug
--swf bin/debug/flash/app.swf

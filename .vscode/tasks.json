@@ -4,7 +4,14 @@
     {
       "label": "debug: flash",
       "command": "haxe",
-      "args": ["config/build-debug-flash.hxml"],
+      "args": [
+        "config/build.hxml",
+        "-D",
+        "fdb",
+        "-debug",
+        "-swf",
+        "bin/debug/flash/app.swf"
+      ],
       "problemMatcher": [
         "$haxe-absolute",
         "$haxe",
@@ -23,7 +30,57 @@
     {
       "label": "debug: js",
       "command": "haxe",
-      "args": ["config/build-debug-js.hxml"],
+      "args": ["config/build.hxml", "-debug", "-js", "bin/debug/js/app.js"],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "debug: tests (flash)",
+      "command": "haxe",
+      "args": [
+        "config/build-tests.hxml",
+        "-D",
+        "fdb",
+        "-debug",
+        "-swf",
+        "bin/debug/flash/app.tests.swf"
+      ],
+      "problemMatcher": [
+        "$haxe-absolute",
+        "$haxe",
+        "$haxe-error",
+        "$haxe-trace"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "debug: tests (js)",
+      "command": "haxe",
+      "args": [
+        "config/build-tests.hxml",
+        "-debug",
+        "-js",
+        "bin/debug/js/app.tests.js"
+      ],
       "problemMatcher": [
         "$haxe-absolute",
         "$haxe",
@@ -42,7 +99,7 @@
     {
       "label": "release: flash",
       "command": "haxe",
-      "args": ["config/build-release-flash.hxml"],
+      "args": ["config/build.hxml", "-swf", "bin/release/flash/app.swf"],
       "problemMatcher": [
         "$haxe-absolute",
         "$haxe",
@@ -61,7 +118,7 @@
     {
       "label": "release: js",
       "command": "haxe",
-      "args": ["config/build-release-js.hxml"],
+      "args": ["config/build.hxml", "-js", "bin/release/js/app.js"],
       "problemMatcher": [
         "$haxe-absolute",
         "$haxe",

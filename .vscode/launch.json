@@ -5,18 +5,32 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Node",
+      "name": "Flash",
+      "type": "fdb",
+      "request": "launch",
+      "program": "${workspaceRoot}/bin/debug/flash/app.swf",
+      "preLaunchTask": "debug: flash"
+    },
+    {
+      "name": "JS",
       "type": "node",
       "request": "launch",
       "program": "${workspaceRoot}/bin/debug/js/app.js",
       "preLaunchTask": "debug: js"
     },
     {
-      "name": "Flash",
+      "name": "Tests: Flash",
       "type": "fdb",
       "request": "launch",
-      "program": "${workspaceRoot}/bin/debug/flash/app.swf",
-      "preLaunchTask": "debug: flash"
+      "program": "${workspaceRoot}/bin/debug/flash/app.tests.swf",
+      "preLaunchTask": "debug: tests (flash)"
+    },
+    {
+      "name": "Tests: JS",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/bin/debug/js/app.tests.js",
+      "preLaunchTask": "debug: tests (js)"
     }
   ]
 }

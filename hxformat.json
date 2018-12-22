@@ -8,5 +8,11 @@
     "objectFieldColonPolicy": "after",
     "typeCheckColonPolicy": "after",
     "typeHintColonPolicy": "after"
+  },
+  "wrapping": {
+    "maxLineLength": 80,
+    "arrayWrap": {
+      "defaultWrap": "keep"
+    }
   }
 }
