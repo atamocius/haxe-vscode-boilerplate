@@ -51,4 +51,6 @@ The conventions used in this boilerplate are specific to my own tastes and are c
 
 You can find instructions on how to configure formatting [here](https://github.com/vshaxe/vshaxe/wiki/Formatting). Further details about the full schema of `hxformat.json` can be found [here](https://github.com/vshaxe/vshaxe/blob/master/schemas/hxformat-schema.json).
 
+> You also have to modify `.editorconfig` if you want to change the use of space to tabs and also to change the indent size.
+
 [haxe extension]: https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe
