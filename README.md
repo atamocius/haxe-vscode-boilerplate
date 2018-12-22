@@ -35,4 +35,10 @@ The `config` folder contains the main configuration for the application and unit
 
 The target specific compilation switches are declared in `tasks.json`.
 
+## Coding Convention
+
+The conventions used in this boilerplate are specific to my own tastes and are clearly a bit far from the norm. If you have installed the [Haxe extension], you can easily configure this by modifying the `hxformat.json` file at the root.
+
+You can find instructions on how to configure formatting [here](https://github.com/vshaxe/vshaxe/wiki/Formatting). Further details about the full schema of `hxformat.json` can be found [here](https://github.com/vshaxe/vshaxe/blob/master/schemas/hxformat-schema.json).
+
 [haxe extension]: https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe
