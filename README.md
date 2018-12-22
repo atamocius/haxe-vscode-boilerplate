@@ -4,14 +4,6 @@ A barebones boilerplate for Haxe in VS Code. Install the [Haxe extension] to get
 
 > The sample code included uses new _Haxe 4.0.0_ language features.
 
-## Motivation
-
-I created this boilerplate as a way to quickly setup a Haxe coding environment.
-
-Much of the tutorials/instructions on setting up one's development environment focus on Haxe's specific use cases. There are instructions to get up and running quickly but usually lack instructions on how to setup debugging, especially on VS Code.
-
-This boilerplate's setup is focused on getting an environment up that focuses more on the language. This is mainly useful for beginners or to just quickly try out some idea or piece of code.
-
 ## Debugging
 
 Launch configurations for the following debuggers are included:
@@ -54,5 +46,13 @@ The conventions used in this boilerplate are specific to my own tastes and are c
 You can find instructions on how to configure formatting [here](https://github.com/vshaxe/vshaxe/wiki/Formatting). Further details about the full schema of `hxformat.json` can be found [here](https://github.com/vshaxe/vshaxe/blob/master/schemas/hxformat-schema.json).
 
 > You also have to modify `.editorconfig` if you want to change the use of space to tabs and also to change the indent size.
+
+## Motivation
+
+I created this boilerplate as a way to quickly setup a Haxe coding environment.
+
+Much of the tutorials/instructions on setting up one's development environment focus on Haxe's specific use cases. There are instructions to get up and running quickly but usually lack instructions on how to setup debugging, especially on VS Code.
+
+This boilerplate's setup is focused on getting an environment up that focuses more on the language. This is mainly useful for beginners or to just quickly try out some idea or piece of code.
 
 [haxe extension]: https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe
