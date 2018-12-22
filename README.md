@@ -14,7 +14,7 @@ This boilerplate's setup is focused on getting an environment up that focuses mo
 
 ## Debugging
 
-This boilerplate includes launch configurations for debugging with the following debuggers:
+Launch configurations for the following debuggers are included:
 
 - JS (Node)
 - Flash
@@ -25,11 +25,13 @@ VS Code already has built-in support for debugging with Node. Just make sure to 
 
 ### Flash
 
-You need to have the [Flash Debugger extension](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-debug) for VS Code installed.
+You need to have the [Flash Debugger extension](https://marketplace.visualstudio.com/items?itemName=vshaxe.haxe-debug) installed.
 
 ## Unit Tests
 
-It is configured to use [utest](https://github.com/haxe-utest/utest) for unit tests. Debugging support for unit tests is also available.
+It is configured to use [utest](https://github.com/haxe-utest/utest). Debugging support for unit tests is also available.
+
+> Since [_Haxe 4.0.0-preview.2_](https://haxe.org/download/version/4.0.0-preview.2/), `haxe.unit` has been moved to `hx3compat`. Instead of using `hx3compat`, I have opted to use `utest`. Moving to a different unit testing library only means updating dependencies (`-lib`) in the root `build.hxml` and `config/build-tests.hxml` files.
 
 ## Configuration
 
