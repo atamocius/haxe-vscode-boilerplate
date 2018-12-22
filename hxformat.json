@@ -11,6 +11,9 @@
   },
   "wrapping": {
     "maxLineLength": 80,
+    "functionSignature": {
+      "defaultWrap": "keep"
+    },
     "arrayWrap": {
       "defaultWrap": "keep"
     }
