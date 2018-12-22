@@ -29,7 +29,7 @@ The `build.hxml` at the root is just for the _Haxe completion server_ utilized b
 
 ### `./config/build.hxml` and `./config/build-tests.hxml`
 
-The `config` folder contains the main configuration for the application and unit test builds. It primarily contains the class path (`-cp`) and main class (`-main`) commands since these commands are shared among the different build targets.
+The `config` folder contains the main configuration for the application and unit test builds. It primarily contains the class path (`-cp`) and main class (`-main`) commands since these commands are shared among the different build targets. Specific dependencies for each definition (`-lib`) that will be used to build the application and unit tests should also be placed here.
 
 ### `.vscode/tasks.json`
 
